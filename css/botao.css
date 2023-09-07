@@ -1,0 +1,75 @@
+.botao {
+    border-radius: 90px;
+    background: #26a5e4;
+  
+    display: flex;
+    width: 900px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  
+    transition: ease-in-out 0.5s;
+  }
+  .botao a {
+    color: white;
+    font-size: 20px;
+  
+    text-align: center;
+  
+    font-family: "Gravitas One", sans-serif;
+    width: 80%;
+  
+    letter-spacing: 0.25rem;
+  
+    text-shadow: 0 0 5px white;
+  }
+  .botao:hover {
+    background: #ced101;
+    transform: scale(1.2);
+  }
+  @media screen and (max-width: 768px) {
+    .botao{
+        display: none;
+    }
+    .botao_mobile{
+        border-radius: 90px;
+        background: #26a5e4;
+      
+        display: flex;
+        width: 90%;
+        height: 72px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+      
+        
+        animation: infinite zoom-in-out 1.5s;
+    }
+    .botao_mobile a{
+        color: white;
+        font-size: 16px;
+      
+        text-align: center;
+      
+        font-family: "Gravitas One", sans-serif;
+        width: 80%;
+      
+        letter-spacing: 0.25rem;
+      
+        text-shadow: 0 0 5px white;
+
+    }
+    @keyframes zoom-in-out {
+        0% {
+          transform: scale(0.8);
+        }
+        50% {
+          transform: scale(1.0);
+        }
+        100% {
+            transform: scale(0.8);
+          }
+
+      }
+  }

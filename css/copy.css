@@ -1,0 +1,57 @@
+.copy-container {
+  background-image: url("/Imagens/Rectangle1.png");
+  background-size: cover;
+  height: 700px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.copy {
+  background-image: url("/Imagens/copyback.png");
+  background-size: cover;
+  height: 300px;
+  width: 940px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+
+  flex-direction: column;
+}
+.copy p {
+  color: white;
+  font-size: 20px;
+
+  font-family: "Gravitas One", sans-serif;
+  width: 80%;
+
+  letter-spacing: 0.25rem;
+
+  text-shadow: 0 0 5px white;
+}
+
+@media screen and (max-width: 768px) {
+    .copy-container{
+        width: 100%;
+    }
+    .copy{
+        background: none;
+        height: max-content;
+        width: 90%;
+    }
+    .copy p {
+        color: white;
+        font-size: 18px;
+      
+        font-family: "Gravitas One", sans-serif;
+        width: 100%;
+      
+        letter-spacing: 0.1rem;
+      
+        margin: 15px 0;
+        text-shadow: 0 0 5px white;
+      }
+      
+}
