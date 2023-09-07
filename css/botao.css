@@ -28,6 +28,9 @@
     background: #ced101;
     transform: scale(1.2);
   }
+  .botao_mobile{
+    display: none;
+  }
   @media screen and (max-width: 768px) {
     .botao{
         display: none;
