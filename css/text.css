@@ -24,7 +24,6 @@
   @media screen and (max-width:768px) {
     .text{
         width: 100%;
-        padding: 5%;
     }
     .text p{
         color: white;
@@ -35,7 +34,7 @@
       
         letter-spacing: 0.1rem;
       
-        margin: 15px 0;
+        margin: 15px 0 ;
         text-shadow: 0 0 5px white;
     }
     .text p:nth-child(2) {
